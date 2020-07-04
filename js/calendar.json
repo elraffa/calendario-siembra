@@ -1,0 +1,308 @@
+{
+  "Norte": {
+    "Enero": ["Lechuga", "Morrón", "Ciruela"],
+    "Febrero": ["Melon", "Sandia", "Calabaza"],
+    "Marzo": ["Sandia", "Tomate", "zanahoria"]
+  },
+  "Sur": {
+    "Enero": [
+      "Acelga",
+      "Apio",
+      "Chaucha",
+      "Lechuga",
+      "Rabanito",
+      "Poroto chaucha",
+      "Remolacha",
+      "Zanahoria",
+      "Zapallito"
+    ],
+    "Febrero": [
+      "Acelga",
+      "Apio",
+      "Brócoli",
+      "Coliflor",
+      "Espinaca",
+      "Lechuga",
+      "Puerro",
+      "Rabanito",
+      "Radicheta",
+      "Remolacha",
+      "Repollo",
+      "Zanahoria"
+    ],
+    "Marzo": [
+      "Acelga",
+      "Ajo",
+      "Apio",
+      "Brócoli",
+      "Cebolla",
+      "Coliflor",
+      "Espinaca",
+      "Lechuga",
+      "Puerro",
+      "Rabanito",
+      "Radicheta",
+      "Remolacha",
+      "Repollo",
+      "Zanahoria"
+    ],
+    "Abril": [
+      "Acelga",
+      "Ajo",
+      "Apio",
+      "Cebolla",
+      "Espinaca",
+      "Haba",
+      "Lechuga",
+      "Puerro",
+      "Rabanito",
+      "Radicheta",
+      "Remolacha",
+      "Zanahoria"
+    ],
+    "Mayo": [
+      "Acelga",
+      "Apio",
+      "Lechuga",
+      "Espinaca",
+      "Haba",
+      "Rabanito",
+      "Radicheta",
+      "Remolacha",
+      "Zanahoria"
+    ],
+    "Junio": [
+      "Acelga",
+      "Apio",
+      "Arveja",
+      "Lechuga",
+      "Espinaca",
+      "Haba",
+      "Rabanito",
+      "Remolacha",
+      "Zanahoria"
+    ],
+    "Julio": [
+      "Acelga",
+      "Apio",
+      "Arveja",
+      "Lechuga",
+      "Haba",
+      "Pimiento",
+      "Rabanito",
+      "Remolacha",
+      "Zanahoria"
+    ],
+    "Agosto": [
+      "Acelga",
+      "Albahaca",
+      "Apio",
+      "Arveja",
+      "Batata",
+      "Berenjena",
+      "Lechuga",
+      "Puerro",
+      "Pimiento",
+      "Rabanito",
+      "Radicheta",
+      "Remolacha",
+      "Zanahoria"
+    ],
+    "Septiembre": [
+      "Acelga",
+      "Albahaca",
+      "Apio",
+      "Berenjena",
+      "Lechuga",
+      "Puerro",
+      "Rabanito",
+      "Radicheta",
+      "Remolacha",
+      "Tomate",
+      "Zanahoria"
+    ],
+    "Octubre": [
+      "Acelga",
+      "Apio",
+      "Calabaza",
+      "Chaucha",
+      "Lechuga",
+      "Maíz dulce",
+      "Melón",
+      "Pepino",
+      "Rabanito",
+      "Radicheta",
+      "Remolacha",
+      "Tomate",
+      "Zapallo",
+      "Zapallito",
+      "Zanahoria"
+    ],
+    "Noviembre": [
+      "Acelga",
+      "Apio",
+      "Calabaza",
+      "Chaucha",
+      "Lechuga",
+      "Maíz dulce",
+      "Rabanito",
+      "Remolacha",
+      "Zapallo",
+      "Zapallito",
+      "Zanahoria"
+    ],
+    "Diciembre": [
+      "Acelga",
+      "Apio",
+      "Chaucha",
+      "Lechuga",
+      "Maíz dulce",
+      "Rabanito",
+      "Remolacha",
+      "Zapallito",
+      "Zanahoria"
+    ]
+  },
+  "valuvas": {
+    "Acelga": {
+      "description": "La acelga es buena para la próstata",
+      "img": "acelga.png",
+      "consejos": "Sembrá en almácigos y trasplantá"
+    },
+    "Ajo": {
+      "description": "Agua y ajo, querida",
+      "img": "ajo.png",
+      "consejos": "Siembra directa en marzo-abril"
+    },
+    "Apio": {
+      "description": "El apio te hace mejor persona",
+      "img": "apio.png",
+      "consejos": "Sembrá al voleo"
+    },
+    "Arveja": {
+      "description": "La arveja es buena para el suelo",
+      "img": "arveja.png",
+      "consejos": "Siembra directa de junio a agosto"
+    },
+    "Albahaca": {
+      "description": "Tiene buen aroma, hacete un pesto",
+      "img": "albahaca.png",
+      "consejos": "En almácigos, trasplantá en oct/nov"
+    },
+    "Batata": {
+      "description": "Mi cuñada hace batatella (?)",
+      "img": "batata.png",
+      "consejos": "Sembrá en agosto (almácigo), trasplantá en octubre."
+    },
+    "Berenjena": {
+      "description": "Mi abuela las hace al escabeche, un manjar",
+      "img": "berenjena.png",
+      "consejos": "Sembrá en agosto y septiembre (almácigo), trasplantá en oct-nov "
+    },
+    "Brócoli": {
+      "description": "Los fideos con brócoli me pierden",
+      "img": "brocoli.png",
+      "consejos": "Sembrá en almácigo en febrero-marzo, trasplantá en marzo-abril"
+    },
+    "Calabaza": {
+      "description": "En el guiso te espesa el caldo",
+      "img": "calabaza.jpg",
+      "consejos": "Directa a golpes en oct-nov"
+    },
+    "Chaucha": {
+      "description": "Chaucha y palito",
+      "img": "chaucha.jpg",
+      "consejos": "Sembrá en agosto y septiembre (almácigo), trasplantá en oct-nov "
+    },
+    "Cebolla": {
+      "description": "Al prefecto Skinner le gusta el hígado encebollado",
+      "img": "cebolla.png",
+      "consejos": "Sembrá en marzo-abril (almácigo) o directa en abril"
+    },
+    "Coliflor": {
+      "description": "Ya no tengo boludeces para poner",
+      "img": "coliflor.png",
+      "consejos": "Sembrá en almácigo en febrero-marzo, trasplante en abril"
+    },
+    "Espinaca": {
+      "description": "Popeye fue parte de la propaganda militar yanqui",
+      "img": "espinaca.png",
+      "consejos": "Sembrá en almácigo en febrero a junio"
+    },
+    "Haba": {
+      "description": "Acá se cuecen las habas",
+      "img": "habas.png",
+      "consejos": "Siembra directa"
+    },
+    "Lechuga": {
+      "description": "La lechuga es buena para el corazón",
+      "img": "lechuga.png",
+      "consejos": "Sembrá en almácigos y trasplantá"
+    },
+    "Maíz dulce": {
+      "description": "Ojo con los niños del maizal",
+      "img": "maiz.png",
+      "consejos": "Siembra directa a golpe"
+    },
+    "Melón": {
+      "description": "El verdulero sabe cuándo está dulce",
+      "img": "melon.png",
+      "consejos": "Siembra directa a golpe"
+    },
+    "Pepino": {
+      "description": "Me importa uno",
+      "img": "pepino.png",
+      "consejos": "Siembra directa a golpe"
+    },
+    "Pimiento": {
+      "description": "Los picantes también viajan",
+      "img": "pimiento.png",
+      "consejos": "Siembra en almácigo jul-ago, trasplante en octubre"
+    },
+    "Puerro": {
+      "description": "Para limpiarlos bien cortalos al medio",
+      "img": "puerro.png",
+      "consejos": "Siembra en almácigos en agos-sept, se trasplantan en sept-oct"
+    },
+    "Radicheta": {
+      "description": "También le dicen Achicoria",
+      "img": "radicheta.jpg",
+      "consejos": "Siembra directa a chorrillo"
+    },
+    "Remolacha": {
+      "description": "Se conoce que la remolacha mancha la ropa",
+      "img": "remolacha.png",
+      "consejos": "Siembra directa o trasplante"
+    },
+    "Rabanito": {
+      "description": "El rabanito te puede dar un toque de acidez",
+      "img": "rabanito.png",
+      "consejos": "Sembrá al voleo"
+    },
+    "Repollo": {
+      "description": "El chucrut se hace con repollo y sal y nada más",
+      "img": "repollo.png",
+      "consejos": "Siembra en almácigos"
+    },
+    "Tomate": {
+      "description": "Mi sobrina le dice matete",
+      "img": "tomate.png",
+      "consejos": "Sembrá en almácigo en sept-oct, trasplantá en nov-dic"
+    },
+    "Zapallo": {
+      "description": "No confundir con un cabeza de",
+      "img": "zapallo.png",
+      "consejos": "Directa a golpes en oct-nov"
+    },
+    "Zapallito": {
+      "description": "No confundir con un cabeza de",
+      "img": "zapallito.png",
+      "consejos": "Directa a golpes en oct-ene"
+    },
+    "Zanahoria": {
+      "description": "La zanahoria es rica, preguntale a Bugs Bunny",
+      "img": "zanahoria.png",
+      "consejos": "Sembrá al voleo"
+    }
+  }
+}

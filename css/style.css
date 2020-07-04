@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  color: #223740;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Text */
+
+h1 {
+  font-size: 2.6em;
+}
+h2 {
+  font-size: 2em;
+}
+
+/* Header */
+
+header {
+  text-align: center;
+  background-color: #485923;
+  padding: 20px;
+  color: #fff;
+  border-bottom: 1px solid #bf9780;
+}
+
+header img {
+  display: block;
+  float: left;
+  width: 70px;
+  position: absolute;
+  left: 355px;
+  top: 10px;
+}
+
+/* Main */
+#container {
+  margin: 0 auto;
+  width: 900px;
+  padding: 20px;
+}
+
+/* Select */
+.select {
+  text-align: center;
+}
+
+.custom-select {
+  display: inline-block;
+  position: relative;
+  margin: 20px;
+}
+
+.custom-select select {
+  display: none;
+}
+
+.select-selected {
+  background-color: #223740;
+  padding: 20px;
+}
+
+.select-selected:after {
+  position: absolute;
+  content: '';
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,
+.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: #223740;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover,
+.same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#form-select button {
+  font-size: 0.9em;
+  padding: 10px;
+  width: 150px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #98a62e;
+  color: #fff;
+}
+
+#form-select button.clear {
+  background-color: #bf9780 !important;
+}
+
+.selection {
+  margin-top: 20px;
+}
+
+.valuvas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 10px;
+  width: 100%;
+  grid-gap: 10px;
+}
+
+.valuva {
+  padding: 20px;
+  background-color: #fff;
+  height: 350px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.valuva img {
+  margin: 0 auto;
+}
+
+.name {
+  text-align: center;
+  font-size: 1.6em;
+  margin-bottom: 4px;
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+footer {
+  background-color: #735443;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}

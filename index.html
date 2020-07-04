@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Calendario de Siembra</title>
+  </head>
+  <body>
+    
+      <header>
+        <img src="images/plant-icon.png" />
+        <h1>Calendario de siembra</h1>
+        <p>Una app para saber qué sembrar en cada momento del año</p>
+      </header>
+      <div id="container">
+      <section class="select">
+        <h2>Elegí hemisferio y mes:</h2>
+        <form id="form-select">
+          <div class="custom-select" style="width: 250px;">
+          <select id="hemisferio">
+            <option value="0">Elegir Hemisferio:</option>
+            <option value="Norte">Hemisferio Norte</option>
+            <option value="Sur">Hemisferio Sur</option>
+          </select>
+        </div>
+        <div class="custom-select" style="width: 250px;">
+          <select id="mes">
+            <option value="0">Elegir Mes:</option>
+            <option value="Enero">Enero</option>
+            <option value="Febrero">Febrero</option>
+            <option value="Marzo">Marzo</option>
+            <option value="Abril">Abril</option>
+            <option value="Mayo">Mayo</option>
+            <option value="Junio">Junio</option>
+            <option value="Julio">Julio</option>
+            <option value="Agosto">Agosto</option>
+            <option value="Septiembre">Septiembre</option>
+            <option value="Octubre">Octubre</option>
+            <option value="Noviembre">Noviembre</option>
+            <option value="Diciembre">Diciembre</option>
+          </select>
+        </div>
+          <button type="submit">Enviar</button>
+          <button type="reset" class="clear">Borrar</button>
+        </form>
+        
+          <div class="selection"></div>
+          <div class="valuvas">
+
+          </div>
+        </span>
+      </section>
+
+    </div>
+    <footer>
+      <p>By fedeRuffa 2020 v. 1.0</p>
+    </footer>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
