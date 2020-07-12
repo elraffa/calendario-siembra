@@ -8,35 +8,58 @@ form.addEventListener('submit', (e) => {
   let valuvas = (document.querySelector('.valuvas').innerHTML = '');
   const hemisferio = document.getElementById('hemisferio').value;
   const mes = document.getElementById('mes').value;
-  document.querySelector(
-    '.selection'
-  ).innerHTML = `<p>OK. Esto es lo que podés sembrar en el Hemisferio ${hemisferio} en ${mes}: </br><p>`;
+  console.log(hemisferio);
+  if (hemisferio == 0 || hemisferio == 1 || mes == 0) {
+    document.querySelector(
+      '.selection'
+    ).innerHTML = `Tenés que elegir Hemisferio y Mes.`;
+  } else {
+    document.querySelector(
+      '.selection'
+    ).innerHTML = `<p>OK. Esto es lo que podés sembrar en el <span class='bold'>Hemisferio ${hemisferio}</span> en <span class='bold'>${mes}</span>: </br><p class='light'>Pasá por encima de cada tarjeta (o tap en celular) para más detalles</p>
+    <p class='small'>(<span class='bold'>Fuente: </span><a href="http://prohuerta.inta.gob.ar/">ProHuerta - INTA</a>)</p>
+    `;
 
-  // Fetch json
-  fetch('js/calendar.json')
-    .then(function (response) {
-      return response.json();
-    })
-    .then(function (myJson) {
-      let choice = myJson[hemisferio][mes];
-      let verduras = myJson['valuvas'];
-      choice.map((e) => {
-        for (var key in verduras) {
-          if (e === key) {
-            document.querySelector(
-              '.valuvas'
-            ).innerHTML += `<div class='valuva'> 
-              <h3 class='name'>${e}</h3><br> 
-              <img src="images/${myJson['valuvas'][key]['img']}" width=200 /> <br>
-              ${myJson['valuvas'][key]['description']}<br>
-              ${myJson['valuvas'][key]['consejos']}<br></div> `;
+    // Fetch json
+    fetch('js/calendar.json')
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (myJson) {
+        let choice = myJson[hemisferio][mes];
+
+        let verduras = myJson['valuvas'];
+        choice.map((e) => {
+          for (var key in verduras) {
+            if (e === key) {
+              document.querySelector('.valuvas').innerHTML += `
+              <div class='flip-card'>
+                <div class='flip-card-inner'>
+                  <div class='valuva' height=350> 
+                    <h3 class='name'>${e}</h3><br> 
+                    <img src="images/${myJson['valuvas'][key]['img']}" width=200 /> <br>
+                    ${myJson['valuvas'][key]['description']}<br>
+                    ${myJson['valuvas'][key]['consejos']}<br>
+                  </div>
+                  <div class='flip-card-back'>
+                  <h3 class='name'>${e}</h3><br>
+                    <p class='back-text'><span class='bold'><i class='fas fa-seedling'></i> Familia:</span> ${myJson['valuvas'][key]['familia']}<br></p>
+                    <p class='back-text'><span class='bold'><i class="fas fa-ruler-horizontal"></i> Distancia entre plantas: </span>${myJson['valuvas'][key]['distancia']} cm<br></p>
+                    <p class='back-text'><span class='bold'><i class="fas fa-icicles"></i> Heladas: </span>${myJson['valuvas'][key]['heladas']}<br></p>
+                    <p class='back-text'><span class='bold'><i class="fas fa-heart"></i> Asociar con: </span>${myJson['valuvas'][key]['asociacion']}<br></p>
+                    <p class='back-text'><span class='bold'><i class="fas fa-eye"></i> Dificultad: </span>${myJson['valuvas'][key]['dificultad']}<br></p>
+                  </div>
+                </div>  
+              </div> 
+              `;
+            }
           }
-        }
+        });
+      })
+      .catch(function (error) {
+        console.error(error, 'Hubo un error');
       });
-    })
-    .catch(function (error) {
-      console.error(error, 'Hubo un error');
-    });
+  }
 });
 
 form.addEventListener('reset', (e) => {

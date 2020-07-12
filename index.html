@@ -3,28 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Un calendario de siembra para saber qué sembrar en la huerta cada mes del año">
+    <meta name="og:title" property="og:title" content="Calendario de Siembra">
+    <meta name="og:type" content="website">
+    <meta name="og:description" property="og:description" content="Un calendario de siembra para saber qué sembrar en la huerta cada mes del año">
+    <meta name="og:image" property="og:image" content="https://huerta.tips/images/logo-tag.png">
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logo.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/logo.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/android-icon-48x48.png">
     <title>Calendario de Siembra</title>
   </head>
   <body>
     
       <header>
-        <img src="images/plant-icon.png" />
-        <h1>Calendario de siembra</h1>
-        <p>Una app para saber qué sembrar en cada momento del año</p>
+        <div class="logo-area">
+          <img src="images/logo.png" />
+        </div>
+        <div class="header-text">
+          <h1>Calendario de <span class="bold">siembra</span> </h1>
+          <h3>Una app para saber <span class="bold">qué sembrar</span> en cada momento</span>  del año</h3>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#">Acerca de</a></li>
+          </ul>
+        </div>
       </header>
       <div id="container">
       <section class="select">
-        <h2>Elegí hemisferio y mes:</h2>
+        <h2>Elegí <span class='bold'>hemisferio</span> y <span class="bold">mes:</span></h2>
         <form id="form-select">
-          <div class="custom-select" style="width: 250px;">
+          <div class="custom-select">
           <select id="hemisferio">
             <option value="0">Elegir Hemisferio:</option>
             <option value="Norte">Hemisferio Norte</option>
             <option value="Sur">Hemisferio Sur</option>
           </select>
         </div>
-        <div class="custom-select" style="width: 250px;">
+        <div class="custom-select">
           <select id="mes">
             <option value="0">Elegir Mes:</option>
             <option value="Enero">Enero</option>
@@ -41,21 +60,29 @@
             <option value="Diciembre">Diciembre</option>
           </select>
         </div>
-          <button type="submit">Enviar</button>
+          <button type="submit">Buscar</button>
           <button type="reset" class="clear">Borrar</button>
         </form>
         
           <div class="selection"></div>
-          <div class="valuvas">
-
+            <div class="valuvas">
+            </div>
+            <div class="tagline-logo">
+              <img src="images/logo-tag-nobg-dark.png" alt="Tips para la huerta" class="responsive" />
+            </div>
           </div>
         </span>
       </section>
 
     </div>
     <footer>
-      <p>By fedeRuffa 2020 v. 1.0</p>
+      <p>By <a href="https://mktdigitalideas.com">MktDigital Ideas</a> 2020 v. 1.1.0</p>
     </footer>
-    <script src="/js/script.js"></script>
+    
   </body>
+  <script src="/js/script.js"></script>
+  <script
+  src="https://kit.fontawesome.com/a88184b133.js"
+  crossorigin="anonymous"
+></script>
 </html>

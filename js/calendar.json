@@ -1,8 +1,162 @@
 {
   "Norte": {
-    "Enero": ["Lechuga", "Morrón", "Ciruela"],
-    "Febrero": ["Melon", "Sandia", "Calabaza"],
-    "Marzo": ["Sandia", "Tomate", "zanahoria"]
+    "Enero": [
+      "Acelga",
+      "Apio",
+      "Arveja",
+      "Lechuga",
+      "Haba",
+      "Pimiento",
+      "Rabanito",
+      "Remolacha",
+      "Zanahoria"
+    ],
+    "Febrero": [
+      "Acelga",
+      "Albahaca",
+      "Apio",
+      "Arveja",
+      "Batata",
+      "Berenjena",
+      "Lechuga",
+      "Puerro",
+      "Pimiento",
+      "Rabanito",
+      "Radicheta",
+      "Remolacha",
+      "Zanahoria"
+    ],
+    "Marzo": [
+      "Acelga",
+      "Albahaca",
+      "Apio",
+      "Berenjena",
+      "Lechuga",
+      "Puerro",
+      "Rabanito",
+      "Radicheta",
+      "Remolacha",
+      "Tomate",
+      "Zanahoria"
+    ],
+    "Abril": [
+      "Acelga",
+      "Apio",
+      "Calabaza",
+      "Chaucha",
+      "Lechuga",
+      "Maíz dulce",
+      "Melón",
+      "Pepino",
+      "Rabanito",
+      "Radicheta",
+      "Remolacha",
+      "Tomate",
+      "Zapallo",
+      "Zapallito",
+      "Zanahoria"
+    ],
+    "Mayo": [
+      "Acelga",
+      "Apio",
+      "Calabaza",
+      "Chaucha",
+      "Lechuga",
+      "Maíz dulce",
+      "Rabanito",
+      "Remolacha",
+      "Zapallo",
+      "Zapallito",
+      "Zanahoria"
+    ],
+    "Junio": [
+      "Acelga",
+      "Apio",
+      "Chaucha",
+      "Lechuga",
+      "Maíz dulce",
+      "Rabanito",
+      "Remolacha",
+      "Zapallito",
+      "Zanahoria"
+    ],
+    "Julio": [
+      "Acelga",
+      "Apio",
+      "Chaucha",
+      "Lechuga",
+      "Rabanito",
+      "Poroto chaucha",
+      "Remolacha",
+      "Zanahoria",
+      "Zapallito"
+    ],
+    "Agosto": [
+      "Acelga",
+      "Apio",
+      "Brócoli",
+      "Coliflor",
+      "Espinaca",
+      "Lechuga",
+      "Puerro",
+      "Rabanito",
+      "Radicheta",
+      "Remolacha",
+      "Repollo",
+      "Zanahoria"
+    ],
+    "Septiembre": [
+      "Acelga",
+      "Ajo",
+      "Apio",
+      "Brócoli",
+      "Cebolla",
+      "Coliflor",
+      "Espinaca",
+      "Lechuga",
+      "Puerro",
+      "Rabanito",
+      "Radicheta",
+      "Remolacha",
+      "Repollo",
+      "Zanahoria"
+    ],
+    "Octubre": [
+      "Acelga",
+      "Ajo",
+      "Apio",
+      "Cebolla",
+      "Espinaca",
+      "Haba",
+      "Lechuga",
+      "Puerro",
+      "Rabanito",
+      "Radicheta",
+      "Remolacha",
+      "Zanahoria"
+    ],
+    "Noviembre": [
+      "Acelga",
+      "Apio",
+      "Lechuga",
+      "Espinaca",
+      "Haba",
+      "Rabanito",
+      "Radicheta",
+      "Remolacha",
+      "Zanahoria"
+    ],
+    "Diciembre": [
+      "Acelga",
+      "Apio",
+      "Arveja",
+      "Lechuga",
+      "Espinaca",
+      "Haba",
+      "Rabanito",
+      "Remolacha",
+      "Zanahoria"
+    ]
   },
   "Sur": {
     "Enero": [
@@ -167,142 +321,282 @@
     "Acelga": {
       "description": "La acelga es buena para la próstata",
       "img": "acelga.png",
-      "consejos": "Sembrá en almácigos y trasplantá"
+      "consejos": "Sembrá en almácigos y trasplantá",
+      "familia": "Quenopodiáceas",
+      "heladas": "Resistente",
+      "distancia": "15-20",
+      "asociacion": ["Maíz", "Lechuga", "Escarola"],
+      "dificultad": "Fácil"
     },
     "Ajo": {
       "description": "Agua y ajo, querida",
       "img": "ajo.png",
-      "consejos": "Siembra directa en marzo-abril"
+      "consejos": "Siembra directa en marzo-abril",
+      "familia": "Liliáceas",
+      "heladas": "Resistente",
+      "distancia": "10 a 15",
+      "asociacion": "Lechuga / Escarola / Acelga",
+      "dificultad": "Fácil"
     },
     "Apio": {
       "description": "El apio te hace mejor persona",
       "img": "apio.png",
-      "consejos": "Sembrá al voleo"
+      "consejos": "Sembrá al voleo",
+      "familia": "Apiáceas",
+      "heladas": "Resistente",
+      "distancia": "20 a 25",
+      "asociacion": "Raíces / Bulbos/ Legumbres",
+      "dificultad": "Fácil"
     },
     "Arveja": {
       "description": "La arveja es buena para el suelo",
       "img": "arveja.png",
-      "consejos": "Siembra directa de junio a agosto"
+      "consejos": "Siembra directa de junio a agosto",
+      "familia": "Fabáceas o leguminosas",
+      "heladas": "Resistente",
+      "distancia": "5 a 10",
+      "asociacion": "Repollo / Ajo / Zanahoria",
+      "dificultad": "Fácil"
     },
     "Albahaca": {
       "description": "Tiene buen aroma, hacete un pesto",
       "img": "albahaca.png",
-      "consejos": "En almácigos, trasplantá en oct/nov"
+      "consejos": "En almácigos, trasplantá en oct/nov",
+      "familia": "Labiadas",
+      "heladas": "Muy sensible",
+      "distancia": "20 a 25",
+      "asociacion": "Tomate / Zanahoria / Lechuga / Rabanito",
+      "dificultad": "Fácil"
     },
     "Batata": {
       "description": "Mi cuñada hace batatella (?)",
       "img": "batata.png",
-      "consejos": "Sembrá en agosto (almácigo), trasplantá en octubre."
+      "consejos": "Sembrá en agosto (almácigo), trasplantá en octubre.",
+      "familia": "Convolvuláceas",
+      "heladas": "Sensible",
+      "distancia": "30 a 40",
+      "asociacion": "Choclo / Chacra de verano",
+      "dificultad": "Fácil"
     },
     "Berenjena": {
       "description": "Mi abuela las hace al escabeche, un manjar",
       "img": "berenjena.png",
-      "consejos": "Sembrá en agosto y septiembre (almácigo), trasplantá en oct-nov "
+      "consejos": "Sembrá en agosto y septiembre (almácigo), trasplantá en oct-nov ",
+      "familia": "Solanáceas",
+      "heladas": "Muy sensible",
+      "distancia": "40 a 50",
+      "asociacion": "Poroto / Lechuga / Copete",
+      "dificultad": "Fácil"
     },
     "Brócoli": {
       "description": "Los fideos con brócoli me pierden",
       "img": "brocoli.png",
-      "consejos": "Sembrá en almácigo en febrero-marzo, trasplantá en marzo-abril"
+      "consejos": "Sembrá en almácigo en febrero-marzo, trasplantá en marzo-abril",
+      "familia": "Brasicáceas o crucíferas",
+      "heladas": "Resistente",
+      "distancia": "40 a 50",
+      "asociacion": "Taco de reina / Ajenjo / Remolacha",
+      "dificultad": "Difícil"
     },
     "Calabaza": {
       "description": "En el guiso te espesa el caldo",
       "img": "calabaza.jpg",
-      "consejos": "Directa a golpes en oct-nov"
+      "consejos": "Directa a golpes en oct-nov",
+      "familia": "Curcubitáceas",
+      "heladas": "Muy sensible",
+      "distancia": "80 a 100",
+      "asociacion": "Taco de reina / Maíz",
+      "dificultad": "Fácil"
     },
     "Chaucha": {
       "description": "Chaucha y palito",
       "img": "chaucha.jpg",
-      "consejos": "Sembrá en agosto y septiembre (almácigo), trasplantá en oct-nov "
+      "consejos": "Sembrá en agosto y septiembre (almácigo), trasplantá en oct-nov ",
+      "familia": "Febáceas o leguminosas (legumbres)",
+      "heladas": "Muy sensible",
+      "distancia": "20 a 30",
+      "asociacion": "Maíz / Hojas / Bulbos / Pimiento / Berenjenas",
+      "dificultad": "Fácil"
     },
     "Cebolla": {
       "description": "Al prefecto Skinner le gusta el hígado encebollado",
       "img": "cebolla.png",
-      "consejos": "Sembrá en marzo-abril (almácigo) o directa en abril"
+      "consejos": "Sembrá en marzo-abril (almácigo) o directa en abril",
+      "familia": "Liliáceas",
+      "heladas": "Resistente",
+      "distancia": "10 a 15",
+      "asociacion": "Zanahoria / Lechuga / Repollo / Remolacha",
+      "dificultad": "Fácil"
     },
     "Coliflor": {
       "description": "Ya no tengo boludeces para poner",
       "img": "coliflor.png",
-      "consejos": "Sembrá en almácigo en febrero-marzo, trasplante en abril"
+      "consejos": "Sembrá en almácigo en febrero-marzo, trasplante en abril",
+      "familia": "Brasicáceas o crucíferas",
+      "heladas": "Resistente",
+      "distancia": "40 a 50",
+      "asociacion": "Taco de reina / Ajenjo / Remolacha",
+      "dificultad": "Difícil"
     },
     "Espinaca": {
       "description": "Popeye fue parte de la propaganda militar yanqui",
       "img": "espinaca.png",
-      "consejos": "Sembrá en almácigo en febrero a junio"
+      "consejos": "Sembrá en almácigo en febrero a junio",
+      "familia": "Quenopodiáceas",
+      "heladas": "Resistente",
+      "distancia": "5 a 10",
+      "asociacion": "Repollo / Coliflor / Brócoli / Remolacha",
+      "dificultad": "Moderado - Fácil"
     },
     "Haba": {
       "description": "Acá se cuecen las habas",
       "img": "habas.png",
-      "consejos": "Siembra directa"
+      "consejos": "Siembra directa",
+      "familia": "Febáceas o leguminosas (legumbres)",
+      "heladas": "Resistente",
+      "distancia": "25 a 30",
+      "asociacion": "Chacra de invierno / Rabanito / Lechuga",
+      "dificultad": "Fácil"
     },
     "Lechuga": {
       "description": "La lechuga es buena para el corazón",
       "img": "lechuga.png",
-      "consejos": "Sembrá en almácigos y trasplantá"
+      "consejos": "Sembrá en almácigos y trasplantá",
+      "familia": "Asteráceas o compuestas",
+      "heladas": "Resistente",
+      "distancia": "15 a 20",
+      "asociacion": "Bulbos / Raíces / Coles / Acelga",
+      "dificultad": "Fácil"
     },
     "Maíz dulce": {
       "description": "Ojo con los niños del maizal",
       "img": "maiz.png",
-      "consejos": "Siembra directa a golpe"
+      "consejos": "Siembra directa a golpe",
+      "familia": "Gramíneas o poáceas",
+      "heladas": "Muy sensible",
+      "distancia": "15 a 20",
+      "asociacion": "Bulbos / Raíces / Coles / Acelga",
+      "dificultad": "Fácil"
     },
     "Melón": {
       "description": "El verdulero sabe cuándo está dulce",
       "img": "melon.png",
-      "consejos": "Siembra directa a golpe"
+      "consejos": "Siembra directa a golpe",
+      "familia": "Curcubitáceas",
+      "heladas": "Muy sensible",
+      "distancia": "80 a 90",
+      "asociacion": "Chacra de verano / Cercos",
+      "dificultad": "Fácil"
     },
     "Pepino": {
       "description": "Me importa uno",
       "img": "pepino.png",
-      "consejos": "Siembra directa a golpe"
+      "consejos": "Siembra directa a golpe",
+      "familia": "Curcubitáceas",
+      "heladas": "Muy sensible",
+      "distancia": "60 a 70",
+      "asociacion": "Chacra de verano",
+      "dificultad": "Fácil"
     },
     "Pimiento": {
       "description": "Los picantes también viajan",
       "img": "pimiento.png",
-      "consejos": "Siembra en almácigo jul-ago, trasplante en octubre"
+      "consejos": "Siembra en almácigo jul-ago, trasplante en octubre",
+      "familia": "Solanáceas",
+      "heladas": "Sensible",
+      "distancia": "40 a 45",
+      "asociacion": "Zanahoria / Rabanito / Albahaca",
+      "dificultad": "Moderado - Fácil"
     },
     "Puerro": {
       "description": "Para limpiarlos bien cortalos al medio",
       "img": "puerro.png",
-      "consejos": "Siembra en almácigos en agos-sept, se trasplantan en sept-oct"
+      "consejos": "Siembra en almácigos en agos-sept, se trasplantan en sept-oct",
+      "familia": "Liliáceas",
+      "heladas": "Resistente",
+      "distancia": "5 a 10",
+      "asociacion": "Zanahoria / Apio / Lechuga",
+      "dificultad": "Fácil"
     },
     "Radicheta": {
       "description": "También le dicen Achicoria",
       "img": "radicheta.jpg",
-      "consejos": "Siembra directa a chorrillo"
+      "consejos": "Siembra directa a chorrillo",
+      "familia": "Compuestas",
+      "heladas": "Resistente",
+      "distancia": "Chorrillo apretado",
+      "asociacion": "Coles / Bulbos / Raíces",
+      "dificultad": "Fácil"
     },
     "Remolacha": {
       "description": "Se conoce que la remolacha mancha la ropa",
       "img": "remolacha.png",
-      "consejos": "Siembra directa o trasplante"
+      "consejos": "Siembra directa o trasplante",
+      "familia": "Quenopodiáceas",
+      "heladas": "Resistente",
+      "distancia": "8 a 10",
+      "asociacion": "Repollo / Coliflor / Brócoli / Lechuga / Ajo",
+      "dificultad": "Moderado - Fácil"
     },
     "Rabanito": {
       "description": "El rabanito te puede dar un toque de acidez",
       "img": "rabanito.png",
-      "consejos": "Sembrá al voleo"
+      "consejos": "Sembrá al voleo",
+      "familia": "Brasicáceas o crucíferas",
+      "heladas": "Resistente",
+      "distancia": "15 a 20",
+      "asociacion": "Bulbos / Raíces / Coles / Acelga",
+      "dificultad": "Fácil"
     },
     "Repollo": {
       "description": "El chucrut se hace con repollo y sal y nada más",
       "img": "repollo.png",
-      "consejos": "Siembra en almácigos"
+      "consejos": "Siembra en almácigos",
+      "familia": "Brasicáceas o crucíferas",
+      "heladas": "Resistente",
+      "distancia": "40 a 50",
+      "asociacion": "Zanahoria / Romero / Salvia / Taco de reina / Ajenjo / Lechuga",
+      "dificultad": "Moderado - Fácil"
     },
     "Tomate": {
       "description": "Mi sobrina le dice matete",
       "img": "tomate.png",
-      "consejos": "Sembrá en almácigo en sept-oct, trasplantá en nov-dic"
+      "consejos": "Sembrá en almácigo en sept-oct, trasplantá en nov-dic",
+      "familia": "Solanáceas",
+      "heladas": "Muy sensible",
+      "distancia": "20 a 40",
+      "asociacion": "Tábaco / Repollo / Borraja / Copete / Albahaca / Hojas",
+      "dificultad": "Difícil a moderado"
     },
     "Zapallo": {
       "description": "No confundir con un cabeza de",
       "img": "zapallo.png",
-      "consejos": "Directa a golpes en oct-nov"
+      "consejos": "Directa a golpes en oct-nov",
+      "familia": "Curcubitáceas",
+      "heladas": "Muy sensible",
+      "distancia": "100 a 150",
+      "asociacion": "Taco de reina / Chacra de verano",
+      "dificultad": "Fácil"
     },
     "Zapallito": {
       "description": "No confundir con un cabeza de",
       "img": "zapallito.png",
-      "consejos": "Directa a golpes en oct-ene"
+      "consejos": "Directa a golpes en oct-ene",
+      "familia": "Curcubitáceas",
+      "heladas": "Muy sensible",
+      "distancia": "80 a 100",
+      "asociacion": "Taco de reina / Maíz",
+      "dificultad": "Fácil"
     },
     "Zanahoria": {
       "description": "La zanahoria es rica, preguntale a Bugs Bunny",
       "img": "zanahoria.png",
-      "consejos": "Sembrá al voleo"
+      "consejos": "Sembrá al voleo",
+      "familia": "Apiáceas",
+      "heladas": "Resistente",
+      "distancia": "Chorrillo ralo",
+      "asociacion": "Repollo / Romero / Salvia / Ajenjo / Lechuga / Cebolla / Puerro",
+      "dificultad": "Moderado - Fácil"
     }
   }
 }
