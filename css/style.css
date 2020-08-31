@@ -175,6 +175,7 @@ header {
   border-bottom: 1px solid #bf9780;
   display: grid;
   grid-template-columns: 1fr 7fr 4fr;
+  position: relative;
 }
 
 header img {
@@ -185,9 +186,44 @@ header img {
   margin-right: 5px;
 }
 
-.menu {
-  align-self: start;
+.topnav {
+  align-self: center;
   justify-self: end;
+  overflow: hidden;
+}
+
+.newNav {
+  background-color: #485923;
+}
+
+.topnav a,
+.newNav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 2em;
+  display: block;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav #myLinks,
+.newNav #newLinks {
+  display: none;
+  text-align: right;
+}
+
+.topnav a:hover {
+  color: #98b66e;
+}
+
+.newNav a:hover {
+  color: #ddd;
 }
 
 .menu li {
@@ -425,21 +461,34 @@ footer a {
     align-self: start;
   }
 
+  .newNav {
+    /* position: absolute;
+    top: 100px;
+    right: 0; */
+    /* display: block; */
+    /* z-index: 999; */
+    margin-top: 150px;
+    width: 100%;
+  }
+
   .menu {
     text-align: right;
   }
 
   #container {
-    margin-top: 100px;
+    /* margin-top: 100px; */
     margin-bottom: 50px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
   }
 
-  .select {
-    margin-top: 30px;
+  .newNav a {
+    font-size: 1.3em;
   }
+  /* .select {
+    margin-top: 30px;
+  } */
 
   .custom-select {
     width: 90%;
@@ -471,6 +520,10 @@ footer a {
     margin-bottom: 100px;
     width: 90%;
     grid-gap: 10px;
+  }
+
+  .acerca-de {
+    padding: 5px;
   }
 
   #st-1 {

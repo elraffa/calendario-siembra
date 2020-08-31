@@ -155,3 +155,12 @@ function closeAllSelect(elmnt) {
 /* If the user clicks anywhere outside the select box,
 then close all select boxes: */
 document.addEventListener('click', closeAllSelect);
+
+function myFunction() {
+  var x = document.getElementById('newLinks');
+  if (x.style.display === 'block') {
+    x.style.display = 'none';
+  } else {
+    x.style.display = 'block';
+  }
+}
