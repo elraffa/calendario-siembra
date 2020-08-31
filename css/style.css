@@ -409,12 +409,12 @@ footer a {
 
   h2 {
     font-size: 1.4em;
-    margin-top: 10px;
+    margin-top: 25px;
   }
 
   header {
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 1fr 4fr 2fr;
     position: fixed;
     top: 0;
     width: 90%;
@@ -425,16 +425,16 @@ footer a {
     align-self: start;
   }
 
+  .menu {
+    text-align: right;
+  }
+
   #container {
     margin-top: 100px;
     margin-bottom: 50px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr;
-  }
-
-  .menu {
-    display: none;
   }
 
   .select {
@@ -471,6 +471,10 @@ footer a {
     margin-bottom: 100px;
     width: 90%;
     grid-gap: 10px;
+  }
+
+  #st-1 {
+    padding-bottom: 30px;
   }
 
   footer {
